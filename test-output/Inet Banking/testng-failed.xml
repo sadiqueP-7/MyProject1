@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Inet Banking]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="com.login.inet(failed)">
+    <classes>
+      <class name="com.login.inet.BasicLoginAccess">
+        <methods>
+          <include name="Averifytitle"/>
+        </methods>
+      </class> <!-- com.login.inet.BasicLoginAccess -->
+    </classes>
+  </test> <!-- com.login.inet(failed) -->
+</suite> <!-- Failed suite [Inet Banking] -->

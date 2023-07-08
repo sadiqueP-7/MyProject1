@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Inet Banking">
+  <test  name="com.login.inet">
+ 
+    <classes>
+      <class name="com.login.inet.BasicLoginAccess"/>
+      <class name="com.login.inet.CAccountTestcase"/>
+    </classes>
+     </test>
+  </suite>
